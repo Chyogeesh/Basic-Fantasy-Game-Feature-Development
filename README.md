@@ -24,3 +24,8 @@ Challenges Faced:
 
 Database Connection: Ensuring a successful connection to MongoDB was crucial. Proper error handling was implemented to catch connection issues.
 Schema Design: Designing the player and team schemas to accurately represent the data structure required careful consideration.
+Explanation:
+
+Created Mongoose schemas for players and teams.
+Players have attributes like name, points, and position.
+Teams reference players by their IDs.
